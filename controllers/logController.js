@@ -1,6 +1,5 @@
 const router = require("express").Router();
 const sequelize = require("../db");
-const User = sequelize.import("../models/user");
 const Log = sequelize.import("../models/log");
 
 router.post("/create", (req, res) => {
